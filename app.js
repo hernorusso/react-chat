@@ -11,7 +11,8 @@ app.set('view engine', 'pug');
 app.set('views', './views');
 
 // static assets
-app.use('/static', express.static(path.join(__dirname, 'public')));
+app.use('/css', express.static(path.join(__dirname, 'public/styles')));
+app.use('/js', express.static(path.join(__dirname, 'public/scripts')));
 
 //socket io configuration
 io.on('connection', socket => {
