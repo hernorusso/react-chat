@@ -1,6 +1,6 @@
 # React Chat by herno
 
-Download and install project: _`git clone https://github.com/hernorusso/react-chat`_
+Download and install project: _`git clone https://github.com/hernorusso/react-chat.git`_
 
 Go to the cloned directory: _`cd react-chat/`_
 
